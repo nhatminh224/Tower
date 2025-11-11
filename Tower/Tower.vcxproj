@@ -138,8 +138,10 @@
     <ClInclude Include="cbullet.h" />
     <ClInclude Include="cpoint.h" />
     <ClInclude Include="ctower.h" />
+    <ClInclude Include="DefeatState.h" />
     <ClInclude Include="Foreach.h" />
     <ClInclude Include="FrameAnimator.h" />
+    <ClInclude Include="GameState.h" />
     <ClInclude Include="include\SFML\Audio.hpp" />
     <ClInclude Include="include\SFML\Audio\AlResource.hpp" />
     <ClInclude Include="include\SFML\Audio\Export.hpp" />
@@ -240,27 +242,43 @@
     <ClInclude Include="include\SFML\Window\WindowBase.hpp" />
     <ClInclude Include="include\SFML\Window\WindowHandle.hpp" />
     <ClInclude Include="include\SFML\Window\WindowStyle.hpp" />
+    <ClInclude Include="InformationState.h" />
+    <ClInclude Include="MapSelectionState.h" />
+    <ClInclude Include="MenuState.h" />
+    <ClInclude Include="PauseState.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="ResourceHolder.h" />
     <ClInclude Include="ResourceIdentifiers.h" />
     <ClInclude Include="SaveManagement.h" />
+    <ClInclude Include="SettingState.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="StateIdentifiers.h" />
     <ClInclude Include="StateStack.h" />
     <ClInclude Include="Utility.h" />
+    <ClInclude Include="VictoryState.h" />
+    <ClInclude Include="​InputNameState.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="cBaseTower.cpp" />
     <ClCompile Include="cpoint.cpp" />
     <ClCompile Include="ctower.cpp" />
+    <ClCompile Include="DefeatState.cpp" />
     <ClCompile Include="FrameAnimator.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="InformationState.cpp" />
+    <ClCompile Include="MapSelectionState.cpp" />
+    <ClCompile Include="MenuState.cpp" />
+    <ClCompile Include="PauseState.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="SaveManagement.cpp" />
+    <ClCompile Include="SettingState.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="StateStack.cpp" />
     <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="VictoryState.cpp" />
     <ClCompile Include="​cbullet.cpp" />
+    <ClCompile Include="​InputNameState.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="include\SFML\Audio\SoundFileFactory.inl" />
