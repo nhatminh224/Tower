@@ -124,7 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
+    <ClInclude Include="cBaseTower.h" />
+    <ClInclude Include="cbullet.h" />
     <ClInclude Include="cpoint.h" />
+    <ClInclude Include="ctower.h" />
     <ClInclude Include="Foreach.h" />
     <ClInclude Include="FrameAnimator.h" />
     <ClInclude Include="Player.h" />
@@ -138,13 +141,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="cBaseTower.cpp" />
     <ClCompile Include="cpoint.cpp" />
+    <ClCompile Include="ctower.cpp" />
     <ClCompile Include="FrameAnimator.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="SaveManagement.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="StateStack.cpp" />
     <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="​cbullet.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
