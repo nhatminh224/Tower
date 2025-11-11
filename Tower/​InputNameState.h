@@ -26,4 +26,3 @@ private:
 	Text				invalidInputName;
 	bool				invalidName;
 };
-

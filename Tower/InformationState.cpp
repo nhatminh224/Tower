@@ -56,16 +56,15 @@ InformationState::InformationState(StateStack& stack, Context context)
 		"CỐT TRUYỆN:",
 "Nhà máy đang bị chính những tạo vật của nó bao vây. Một AI độc hại đã biến thành",
 "robot phục vụ trở thành những kẻ thực thi pháp luật chết người. Thứ được tạo ra để phục vụ giờ đây lại đang tìm kiếm",
-"thống trị".,
-"",
+
 "Bạn phải chiến đấu qua các khu vực do máy móc kiểm soát và tiêu diệt kẻ thù",
 "trước khi chúng mở rộng ảnh hưởng ra ngoài tường thành. Thất bại không phải là một lựa chọn.",
 "Cứu nhà máy. Mọi thứ đều phụ thuộc vào bạn.",
 "Chúc may mắn, chiến binh cao quý của chúng ta.",
 "",
-"ĐỘI",
+"TEAM",
 "Một trận đấu của",
-"ĐỘI 7 up",
+"TEAM 7 up",
 
 "",
 "LOẠI KẺ THÙ:",
@@ -75,10 +74,10 @@ InformationState::InformationState(StateStack& stack, Context context)
 "",
 "Cơ giáp tầm xa:",
 "Một đơn vị có tốc độ và máu cân bằng. Chúng duy trì tốc độ khá nhanh",
-"mà không quá dễ bị tiêu diệt".,
+"mà không quá dễ bị tiêu diệt",
 "",
 "Người đi bộ nặng:",
-"Đơn vị di chuyển chậm với lớp giáp được gia cố. Tuy tốc độ của chúng chậm,
+"Đơn vị di chuyển chậm với lớp giáp được gia cố. Tuy tốc độ của chúng chậm,",
 "nhưng sức bền của chúng lại rất đáng nể."
 	};
 

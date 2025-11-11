@@ -272,4 +272,3 @@ void SaveManagement::setName(string pName)
 	SaveManagement::playerName = pName;
 }
 
-#include "SaveManagement.h"
