@@ -148,4 +148,3 @@ private:
     void calcPath(int a[][cpoint::MAP_COL], int n, cpoint s, cpoint e);
 };
 
-#pragma once

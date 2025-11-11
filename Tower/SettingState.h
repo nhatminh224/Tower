@@ -22,5 +22,3 @@ private:
 	sf::Sprite				mMusicOffButton;
 	sf::Sprite				mCloseOptionsPanelButton;
 };
-
-#pragma once

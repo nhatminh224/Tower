@@ -1,4 +1,4 @@
-
+#pragma once
 #include "State.h"
 
 #include <SFML/Graphics/Sprite.hpp>
@@ -27,4 +27,3 @@ private:
 	bool				isMusicOn = true;
 	bool				isSoundEffectOn = true;
 };
-#pragma once

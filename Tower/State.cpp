@@ -45,4 +45,3 @@ State::Context State::getContext() const
 {
 	return mContext;
 }
-#include "State.h"

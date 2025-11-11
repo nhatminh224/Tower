@@ -38,4 +38,4 @@ public:
 
     static void initTowerButtonData();
     static vector<Vector2f> getTowerButtons(int levelIndex, int row, int col);
-}; #pragma once
+}; 

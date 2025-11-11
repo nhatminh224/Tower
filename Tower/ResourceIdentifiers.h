@@ -1,7 +1,5 @@
 #pragma once
 
-#pragma once
-
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/Graphics/Font.hpp>
 #include <SFML/Audio/SoundBuffer.hpp>
