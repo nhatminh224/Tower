@@ -136,6 +136,9 @@
     <ClInclude Include="Application.h" />
     <ClInclude Include="cBaseTower.h" />
     <ClInclude Include="cbullet.h" />
+    <ClInclude Include="cenemy.h" />
+    <ClInclude Include="clever.h" />
+    <ClInclude Include="cmap.h" />
     <ClInclude Include="cpoint.h" />
     <ClInclude Include="ctower.h" />
     <ClInclude Include="DefeatState.h" />
@@ -243,6 +246,7 @@
     <ClInclude Include="include\SFML\Window\WindowHandle.hpp" />
     <ClInclude Include="include\SFML\Window\WindowStyle.hpp" />
     <ClInclude Include="InformationState.h" />
+    <ClInclude Include="MapHandle.h" />
     <ClInclude Include="MapSelectionState.h" />
     <ClInclude Include="MenuState.h" />
     <ClInclude Include="PauseState.h" />
@@ -261,12 +265,16 @@
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="cBaseTower.cpp" />
+    <ClCompile Include="cenemy.cpp" />
+    <ClCompile Include="clever.cpp" />
+    <ClCompile Include="cmap.cpp" />
     <ClCompile Include="cpoint.cpp" />
     <ClCompile Include="ctower.cpp" />
     <ClCompile Include="DefeatState.cpp" />
     <ClCompile Include="FrameAnimator.cpp" />
     <ClCompile Include="GameState.cpp" />
     <ClCompile Include="InformationState.cpp" />
+    <ClCompile Include="MapHandle.cpp" />
     <ClCompile Include="MapSelectionState.cpp" />
     <ClCompile Include="MenuState.cpp" />
     <ClCompile Include="PauseState.cpp" />
