@@ -274,6 +274,7 @@
     <ClCompile Include="FrameAnimator.cpp" />
     <ClCompile Include="GameState.cpp" />
     <ClCompile Include="InformationState.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="MapHandle.cpp" />
     <ClCompile Include="MapSelectionState.cpp" />
     <ClCompile Include="MenuState.cpp" />

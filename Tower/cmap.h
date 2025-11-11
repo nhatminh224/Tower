@@ -2,7 +2,6 @@
 #include "cenemy.h"
 #include "ctower.h"
 #include "cBaseTower.h"
-
 #include "FrameAnimator.h"
 #include <vector>
 
@@ -53,4 +52,3 @@ public:
     // Setter
     void setMainTowerTile(const cpoint& tilePos);
 };
-#pragma once
