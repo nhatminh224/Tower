@@ -124,9 +124,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
+    <ClInclude Include="cpoint.h" />
+    <ClInclude Include="Foreach.h" />
+    <ClInclude Include="FrameAnimator.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ResourceHolder.h" />
+    <ClInclude Include="ResourceIdentifiers.h" />
+    <ClInclude Include="SaveManagement.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateIdentifiers.h" />
+    <ClInclude Include="StateStack.h" />
+    <ClInclude Include="Utility.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="cpoint.cpp" />
+    <ClCompile Include="FrameAnimator.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SaveManagement.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StateStack.cpp" />
+    <ClCompile Include="Utility.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
