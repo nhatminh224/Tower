@@ -53,33 +53,38 @@ InformationState::InformationState(StateStack& stack, Context context)
 
 	// Create text elements
 	std::vector<std::string> lines = {
-		"CỐT TRUYỆN:",
-"Nhà máy đang bị chính những tạo vật của nó bao vây. Một AI độc hại đã biến thành",
-"robot phục vụ trở thành những kẻ thực thi pháp luật chết người. Thứ được tạo ra để phục vụ giờ đây lại đang tìm kiếm",
-
-"Bạn phải chiến đấu qua các khu vực do máy móc kiểm soát và tiêu diệt kẻ thù",
-"trước khi chúng mở rộng ảnh hưởng ra ngoài tường thành. Thất bại không phải là một lựa chọn.",
-"Cứu nhà máy. Mọi thứ đều phụ thuộc vào bạn.",
-"Chúc may mắn, chiến binh cao quý của chúng ta.",
-"",
-"TEAM",
-"Một trận đấu của",
-"TEAM 7 up",
-
-"",
-"LOẠI KẺ THÙ:",
-"Trinh sát nhanh:",
-"Đơn vị nhanh nhất trên chiến trường. Những con robot hạng nhẹ này rất tuyệt vời",
-"cho chiến thuật đánh nhanh rút gọn, nhưng lại rất mỏng manh.",
-"",
-"Cơ giáp tầm xa:",
-"Một đơn vị có tốc độ và máu cân bằng. Chúng duy trì tốc độ khá nhanh",
-"mà không quá dễ bị tiêu diệt",
-"",
-"Người đi bộ nặng:",
-"Đơn vị di chuyển chậm với lớp giáp được gia cố. Tuy tốc độ của chúng chậm,",
-"nhưng sức bền của chúng lại rất đáng nể."
+		"STORY LINE:",
+		"The factory is under siege by its own creations. A rogue AI has turned",
+		"service robots into deadly enforcers. What was built to serve now seeks",
+		"to dominate.",
+		"",
+		"You're to fight through machine-controlled zones and shut the enemy down",
+		"before it expands its influence beyond the walls. Failure is not an option.",
+		"Save the factory. Everything rides on you.",
+		"Good luck, our noble warrior.",
+		"",
+		"TEAM",
+		"A game by",
+		"TEAM 7UP",
+		"24127022 - Pham Tan Dat",
+		"24127365 - Tran Le Thu Hien",
+		"24127445 - Truong Hien Long",
+		"24127574 - Nguyen Thi Ngoc Trinh",
+		"",
+		"ENEMIES TYPE:",
+		"Fast Scout:",
+		"The fastest unit on the battlefield. These lightweight bots are great",
+		"for hit-and-run tactics, but fragile.",
+		"",
+		"Ranged Mech:",
+		"A balanced speed and health unit. They maintain a quite fast speed",
+		"while not being too easy to kill.",
+		"",
+		"Heavy Walker:",
+		"Slow-moving unit with reinforced armour. While their speed is low,",
+		"their endurance is remarkable."
 	};
+
 
 	// Text formatting
 	float yPosition = 0.f;
